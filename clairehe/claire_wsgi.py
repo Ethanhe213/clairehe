@@ -1,0 +1,1 @@
+from clairehe.wsgi import application

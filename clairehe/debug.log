@@ -1,0 +1,1894 @@
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+\\Home\web\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_6MatB7I.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /favicon.ico
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_6MatB7I.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_6MatB7I.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /favicon.ico
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_6MatB7I.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GwLMmVl.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_6MatB7I.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GwLMmVl.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_6MatB7I.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_6MatB7I.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GwLMmVl.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GwLMmVl.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_6MatB7I.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GwLMmVl.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_6MatB7I.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GwLMmVl.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_6MatB7I.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GwLMmVl.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_3cCIJeW.jpeg
+Not Found: /images/imagejpeg_0.jpg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_6MatB7I.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GwLMmVl.jpeg
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+Not Found: /static/admin/js/filters.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/cancel.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/js/vendor/jquery/jquery.min.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/vendor/xregexp/xregexp.min.js
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/filters.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /favicon.ico
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38.jpeg
+Not Found: /img/924b3f709f09341f5cfbbc61ae756e38.jpeg
+Not Found: /staticfiles/img/924b3f709f09341f5cfbbc61ae756e38.jpeg
+Not Found: /staticfiles/admin/img/924b3f709f09341f5cfbbc61ae756e38.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /images/IMG_2917.PNG
+Not Found: /media/IMG_2917.PNG
+Not Found: /media/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /favicon.ico
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+Watching for file changes with StatReloader
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+Not Found: /favicon.ico
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_3240.JPG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_3240_M6Trl9z.JPG
+\\Home\web\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\clairehe\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /static/images/IMG_2917.PNG
+\\Home\web\Claire\clairehe\clairehe\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_2917.PNG
+\\Home\web\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\urls.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_2917.PNG
+Not Found: /static/images/IMG_2917.PNG
+Internal Server Error: /
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 13, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deletephoto' not found. 'deletephoto' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 13, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deletephoto' not found. 'deletephoto' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 13, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deletephoto' not found. 'deletephoto' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 13, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deletephoto' not found. 'deletephoto' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 13, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deletephoto' not found. 'deletephoto' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 13, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deletephoto' not found. 'deletephoto' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 13, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deletephoto' not found. 'deletephoto' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 13, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deletephoto' not found. 'deletephoto' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 13, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deletephoto' not found. 'deletephoto' is not a valid view function or pattern name.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 13, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deletephoto' not found. 'deletephoto' is not a valid view function or pattern name.
+\\Home\web\Claire\clairehe\photos\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /static/images/IMG_2917.PNG
+\\Home\web\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /delete/24
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 24, in deletephoto
+    return render(request,'gallery')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gallery
+Internal Server Error: /delete/24
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 22, in deletephoto
+    photo=Photo.objects.get(id=pk)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+photos.models.Photo.DoesNotExist: Photo matching query does not exist.
+Internal Server Error: /delete/22
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 24, in deletephoto
+    return render(request,'gallery')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gallery
+Internal Server Error: /delete/18
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 24, in deletephoto
+    return redirect('gallery')
+           ^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: gallery
+\\Home\web\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /delete/18
+Traceback (most recent call last):
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\clairehe\photos\views.py", line 22, in deletephoto
+    photo=Photo.objects.get(id=pk)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "\\Home\web\Claire\claire\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+photos.models.Photo.DoesNotExist: Photo matching query does not exist.
+\\Home\web\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\validators.py changed, reloading.
+Watching for file changes with StatReloader
+\\Home\web\Claire\clairehe\photos\validators.py changed, reloading.
+e(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '75.118.46.81:8080'. You may need to add '75.118.46.81' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'clairehe.synology.me:8080'. You may need to add 'clairehe.synology.me' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'clairehe.synology.me:8080'. You may need to add 'clairehe.synology.me' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'clairehe.synology.me:8080'. You may need to add 'clairehe.synology.me' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'clairehe.synology.me:8080'. You may need to add 'clairehe.synology.me' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /photo/19
+Traceback (most recent call last):
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/volume1/web/Claire/clairehe/./photos/views.py", line 19, in viewphoto
+    photo=Photo.objects.get(id=pk)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/syno/etc/packages/WebStation/python_profile/2ef6096a-4955-48f6-a6ed-781eb14197ad/venv/lib/python3.9/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+photos.models.Photo.DoesNotExist: Photo matching query does not exist.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 15, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'video' not found. 'video' is not a valid view function or pattern name.
+Not Found: /favicon.ico
+F:\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\clairehe\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\clairehe\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+F:\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 15, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'video' not found. 'video' is not a valid view function or pattern name.
+F:\Claire\clairehe\photos\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /media/924b3f709f09341f5cfbbc61ae756e38_GXAlyZT.jpeg
+Not Found: /media/IMG_3240_M6Trl9z.JPG
+Not Found: /media/IMG_4507.jpeg
+Not Found: /media/IMG_4507.jpeg
+Not Found: /media/IMG_3240_M6Trl9z.JPG
+Not Found: /media/IMG_3240_M6Trl9z.JPG
+F:\Claire\clairehe\clairehe\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: deletevideo() missing 1 required positional argument: 'pk'
+F:\Claire\clairehe\photos\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: deletevideo() missing 1 required positional argument: 'pk'
+F:\Claire\clairehe\photos\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /video/
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\urls.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 83, in gallery_video
+    return render(request,'photos/video_gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: photos/video_gallery.html
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 83, in gallery_video
+    return render(request,'photos/gallery_video.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'video' with no arguments not found. 1 pattern(s) tried: ['video/(?P<pk>[^/]+)\\Z']
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 15, in gallery
+    return render(request,'photos/gallery.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'video' with no arguments not found. 1 pattern(s) tried: ['video/(?P<pk>[^/]+)\\Z']
+Not Found: /favicon.ico
+Internal Server Error: /video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 83, in gallery_video
+    return render(request,'photos/gallery_video.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'video' with no arguments not found. 1 pattern(s) tried: ['video/(?P<pk>[^/]+)\\Z']
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add-video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 67, in addVideo
+    return redirect('video')
+           ^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'video' with no arguments not found. 1 pattern(s) tried: ['video/(?P<pk>[^/]+)\\Z']
+Internal Server Error: /add-video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 67, in addVideo
+    return redirect('video')
+           ^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'video' with no arguments not found. 1 pattern(s) tried: ['video/(?P<pk>[^/]+)\\Z']
+Internal Server Error: /add-video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 67, in addVideo
+    return redirect('video')
+           ^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'video' with no arguments not found. 1 pattern(s) tried: ['video/(?P<pk>[^/]+)\\Z']
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add-video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 67, in addVideo
+    return redirect('gallery_video')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'gallery_video' not found. 'gallery_video' is not a valid view function or pattern name.
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /video/1
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 72, in viewvideo
+    return render(request,'photos/video.html',{'video':video})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: photos/video.html
+Internal Server Error: /video/1
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 72, in viewvideo
+    return render(request,'photos/video.html',{'video':video})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: photos/video.html
+Internal Server Error: /video/1
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 72, in viewvideo
+    return render(request,'photos/video.html',{'video':video})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: photos/video.html
+Internal Server Error: /video/1
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 72, in viewvideo
+    return render(request,'photos/video.html',{'video':video})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: photos/video.html
+Internal Server Error: /video/1
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 72, in viewvideo
+    return render(request,'photos/video.html',{'video':video})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: photos/video.html
+Internal Server Error: /video/1
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 72, in viewvideo
+    return render(request,'photos/video.html',{'video':video})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: photos/video.html
+Internal Server Error: /video/1
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 72, in viewvideo
+    return render(request,'photos/video.html',{'video':video})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: photos/video.html
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /add-video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 69, in addVideo
+    return render(request,'photos/add_video.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'gallery-video' not found. 'gallery-video' is not a valid view function or pattern name.
+Internal Server Error: /add-video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 69, in addVideo
+    return render(request,'photos/add_video.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'gallery-video' not found. 'gallery-video' is not a valid view function or pattern name.
+Internal Server Error: /add-video/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 69, in addVideo
+    return render(request,'photos/add_video.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'gallery-video' not found. 'gallery-video' is not a valid view function or pattern name.
+Internal Server Error: /delete/video/7
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 88, in deletevideo
+    return redirect('gallery_video')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'gallery_video' not found. 'gallery_video' is not a valid view function or pattern name.
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /delete/video/7
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 86, in deletevideo
+    video=Video.objects.get(id=pk)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+photos.models.Video.DoesNotExist: Video matching query does not exist.
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
