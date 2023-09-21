@@ -22,11 +22,11 @@
                       Categories   <a href="{% url 'gallery' %}"></a>
                     </div>
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item"><a href="{% url 'gallery' %}"> All</a> </li>
+                      <a class="list-group-item list-group-item-action" href="{% url 'gallery' %}"> All</a> 
                       {%for category in categories%}
-                      <li class="list-group-item"><a href="{% url 'gallery'  %}?category={{category.name}}"> {{category.name}}</li>
+                      <a class="list-group-item list-group-item-action" href="{% url 'gallery'  %}?category={{category.name}}"> {{category.name}}</a> 
 
-                      </a>  
+                      
                      {% endfor %}
                      <a href="{% url 'add'%}" class="btn btn-block btn-dark btn-sm m-1">Add Photo</a>
                     </ul>
@@ -34,7 +34,7 @@
             </div>
             <div class="col-md-9">
                 <div class="row">
-                  {% for photo in photos%}
+                  {% for photo in photos %}
                   <div class="col-md-4">
                     <div class="card my-2">
                         <img src="{{photo.image.url}}" class="image-thumbnail" alt="...">
@@ -49,6 +49,21 @@
                   <h3> No Photos....</h3>
                   {% endfor %}
                 </div>
+                <div class="pagination">
+                  <span class="step-links">
+                      {% if page.has_previous %}
+                          <a href="?page=1">&laquo; first</a>
+                          <a href="?page={{ page.previous_page_number }}">previous</a>
+                      {% endif %}
+              
+                      <span class="current-page">{{ page.number }}</span>
+              
+                      {% if page.has_next %}
+                          <a href="?page={{ page.next_page_number }}">next</a>
+                          <a href="?page={{ page.paginator.num_pages }}">last &raquo;</a>
+                      {% endif %}
+                  </span>
+              </div>
             </div>  
           </div>
       </div>
