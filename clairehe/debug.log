@@ -2609,3 +2609,1872 @@ Traceback (most recent call last):
   File "F:\Claire\claire\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
     raise ValueError(
 ValueError: The 'image' attribute has no file associated with it.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /video/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 88, in gallery_video
+    videos = videos.order_by(default_order)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\db\models\query.py", line 1659, in order_by
+    obj.query.add_ordering(*field_names)
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\db\models\sql\query.py", line 2221, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'created_at' into field. Choices are: category, category_id, description, id, video
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 53, in addPhoto
+    created_at=Photo.extract_creation_date(),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Photo.extract_creation_date() missing 1 required positional argument: 'self'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 49, in addPhoto
+    creation_date = Photo.extract_creation_date(image.path)
+                                                ^^^^^^^^^^
+AttributeError: 'InMemoryUploadedFile' object has no attribute 'path'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 49, in addPhoto
+    creation_date = Photo.extract_creation_date()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Photo.extract_creation_date() missing 1 required positional argument: 'self'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 49, in addPhoto
+    creation_date = Photo.extract_creation_date()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Photo.extract_creation_date() missing 1 required positional argument: 'self'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 11, in gallery
+    print(photos.created_at)
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'created_at'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 11, in gallery
+    print(photos['created_at'])
+          ~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\db\models\query.py", line 418, in __getitem__
+    raise TypeError(
+TypeError: QuerySet indices must be integers or slices, not str.
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 52, in addPhoto
+    print("hello"+creation_date)
+          ~~~~~~~^~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 53, in addPhoto
+    img = Image.open(Photo.image.url)
+                     ^^^^^^^^^^^^^^^
+AttributeError: 'ImageFileDescriptor' object has no attribute 'url'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 53, in addPhoto
+    img = Image.open(Photo.image.path)
+                     ^^^^^^^^^^^^^^^^
+AttributeError: 'ImageFileDescriptor' object has no attribute 'path'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 53, in addPhoto
+    img = Image.open(image.path)
+                     ^^^^^^^^^^
+AttributeError: 'InMemoryUploadedFile' object has no attribute 'path'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x07H'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x05\xa0'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x07H'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x05\xa0'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x07H'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x05\xa0'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x07H'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x05\xa0'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 57, in addPhoto
+    for tag, value in exif_data.items():
+                      ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 57, in addPhoto
+    for tag, value in exif_data.items():
+                      ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x07H'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x05\xa0'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 55, in addPhoto
+    creation_date = os.path.getctime(image)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 65, in getctime
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not InMemoryUploadedFile
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py", line 55, in addPhoto
+    creation_date = os.path.getctime(image.url)
+                                     ^^^^^^^^^
+AttributeError: 'InMemoryUploadedFile' object has no attribute 'url'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\claire\clairehe\photos\views.py", line 54, in addPhoto
+    tags = exifread.process_file(img)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\exifread\__init__.py", line 137, in process_file
+    offset, endian, fake_exif = _determine_type(fh)
+                                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\exifread\__init__.py", line 102, in _determine_type
+    data = fh.read(12)
+           ^^^^^^^
+AttributeError: 'JpegImageFile' object has no attribute 'read'
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\claire\clairehe\photos\views.py", line 53, in addPhoto
+    with open(image, 'rb') as img:
+         ^^^^^^^^^^^^^^^^^
+TypeError: expected str, bytes or os.PathLike object, not InMemoryUploadedFile
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+JPEG format recognized data[0:2]=0xFFD8
+data[2]=0xFF data[3]=0xE0 data[6:10]=b'JFIF'
+ Length offset is 16
+ Added to zero
+ Set segment base to 0x14
+ Segment base 0x14
+  APP1 at base 0x14
+  Length: 0x21 0x20
+  Code: b'Exif'
+  Decrement base by 2 to get to pre-segment header (for compatibility with later code)
+Endian format is M (Motorola)
+IFD 0 (Image) at offset 8:
+ Orientation: (0x0112) Short=Horizontal (normal) @ 18
+ XResolution: (0x011A) Ratio=72 @ 86
+ YResolution: (0x011B) Ratio=72 @ 94
+ ResolutionUnit: (0x0128) Short=Pixels/Inch @ 54
+ YCbCrPositioning: (0x0213) Short=Centered @ 66
+ ExifOffset: (0x8769) Long=102 @ 78
+IFD 1 (Thumbnail) at offset 192:
+ Compression: (0x0103) Short=JPEG (old-style) @ 202
+ XResolution: (0x011A) Ratio=72 @ 270
+ YResolution: (0x011B) Ratio=72 @ 278
+ ResolutionUnit: (0x0128) Short=Pixels/Inch @ 238
+ JPEGInterchangeFormat: (0x0201) Long=286 @ 250
+ JPEGInterchangeFormatLength: (0x0202) Long=8184 @ 262
+Exif SubIFD at offset 102:
+ ExifVersion: (0x9000) Undefined=0221 @ 112
+ ComponentsConfiguration: (0x9101) Undefined=YCbCr @ 124
+ FlashPixVersion: (0xA000) Undefined=0100 @ 136
+ ColorSpace: (0xA001) Short=sRGB @ 148
+ ExifImageWidth: (0xA002) Long=1864 @ 160
+ ExifImageLength: (0xA003) Long=1440 @ 172
+ SceneCaptureType: (0xA406) Short=Standard @ 184
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ethan\Documents\Test\claire\claire\clairehe\photos\views.py", line 69, in addPhoto
+    created_at=creation_date,
+               ^^^^^^^^^^^^^
+NameError: name 'creation_date' is not defined
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+JPEG format recognized data[0:2]=0xFFD8
+data[2]=0xFF data[3]=0xE0 data[6:10]=b'JFIF'
+ Length offset is 16
+ Added to zero
+ Set segment base to 0x14
+ Segment base 0x14
+  APP1 at base 0x14
+  Length: 0x21 0x20
+  Code: b'Exif'
+  Decrement base by 2 to get to pre-segment header (for compatibility with later code)
+Endian format is M (Motorola)
+IFD 0 (Image) at offset 8:
+ Orientation: (0x0112) Short=Horizontal (normal) @ 18
+ XResolution: (0x011A) Ratio=72 @ 86
+ YResolution: (0x011B) Ratio=72 @ 94
+ ResolutionUnit: (0x0128) Short=Pixels/Inch @ 54
+ YCbCrPositioning: (0x0213) Short=Centered @ 66
+ ExifOffset: (0x8769) Long=102 @ 78
+IFD 1 (Thumbnail) at offset 192:
+ Compression: (0x0103) Short=JPEG (old-style) @ 202
+ XResolution: (0x011A) Ratio=72 @ 270
+ YResolution: (0x011B) Ratio=72 @ 278
+ ResolutionUnit: (0x0128) Short=Pixels/Inch @ 238
+ JPEGInterchangeFormat: (0x0201) Long=286 @ 250
+ JPEGInterchangeFormatLength: (0x0202) Long=8184 @ 262
+Exif SubIFD at offset 102:
+ ExifVersion: (0x9000) Undefined=0221 @ 112
+ ComponentsConfiguration: (0x9101) Undefined=YCbCr @ 124
+ FlashPixVersion: (0xA000) Undefined=0100 @ 136
+ ColorSpace: (0xA001) Short=sRGB @ 148
+ ExifImageWidth: (0xA002) Long=1864 @ 160
+ ExifImageLength: (0xA003) Long=1440 @ 172
+ SceneCaptureType: (0xA406) Short=Standard @ 184
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Ethan\Documents\Test\claire\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x048'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 69, in addPhoto
+    created_at=creation_date
+               ^^^^^^^^^^^^^
+NameError: name 'creation_date' is not defined
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x048'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 52, in addPhoto
+    img=Image.open(image)
+        ^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\PIL\Image.py", line 3280, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <InMemoryUploadedFile: IMG_0775.HEIC (application/octet-stream)>
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:22\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xe0'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x00\xd3'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:22\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:22\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00\xe5\x1b\x00\x00\x1d\xaa'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01\x19\x9c\x00\x00*?'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1170 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'903\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'903\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1942 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1974 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1980 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2042 - Data Location: 2190 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fU\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2066 - Data Location: 2214 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x037\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2090 - Data Location: 2238 - value: b'\x00\x03\x13\x18\x00\x00\x01\xef'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2114 - Data Location: 2246 - value: b'\x00\x006\x88\x00\x01\xbc\xe5'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2138 - Data Location: 2254 - value: b'\x00\t\xd0\x9c\x00\x00\n\x9f'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2162 - Data Location: 2262 - value: b'\x00\t\xd0\x9c\x00\x00\n\x9f'
+tag: unknown (29) - type: string (2) Tag Location: 2174 - Data Location: 2270 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2186 - Data Location: 2282 - value: b'\x00\x02/U\x00\x00\x14j'
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 61, in addPhoto
+    print(creation_date)
+          ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'creation_date' where it is not associated with a value
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 56, in addPhoto
+    creation_date =  exif_data['36868']
+                     ~~~~~~~~~^^^^^^^^^
+KeyError: '36868'
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 56, in addPhoto
+    print(exif_data['36868'])
+          ~~~~~~~~~^^^^^^^^^
+KeyError: '36868'
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: XResolution (282) - type: rational (5) Tag Location: 22 - Data Location: 74 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 34 - Data Location: 82 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00Z'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x048'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x07\x80'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 57, in addPhoto
+    print(exif_data['36868'])
+          ~~~~~~~~~^^^^^^^^^
+KeyError: '36868'
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 57, in addPhoto
+    print(exif_data['36868'])
+          ~~~~~~~~~^^^^^^^^^
+KeyError: '36868'
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 61, in addPhoto
+    print(creation_date)
+      ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'creation_date' where it is not associated with a value
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 66, in addPhoto
+    image=image,
+          ^^^^^
+UnboundLocalError: cannot access local variable 'creation_date' where it is not associated with a value
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 66, in addPhoto
+    image=image,
+          ^^^^^
+UnboundLocalError: cannot access local variable 'creation_date' where it is not associated with a value
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\clairehe\photos\views.py", line 71, in addPhoto
+    photo=Photo.objects.create(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\fields\__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\fields\__init__.py", line 1607, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Claire\claire\Lib\site-packages\django\db\models\fields\__init__.py", line 1567, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2020:10:16 12:17:51” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.']
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+F:\Claire\clairehe\photos\views.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+F:\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+F:\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+F:\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 146 - value: b'Apple\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 152 - value: b'iPhone XR\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x00\x06'
+tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 162 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 170 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 178 - value: b'14.0.1\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 186 - value: b'2020:10:16 12:17:51\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xce'
+tag: GPSInfoIFD (34853) - type: long (4) - value: b'\x00\x00\x07\xec'
+tag: ExposureTime (33434) - type: rational (5) Tag Location: 220 - Data Location: 644 - value: b'\x00\x00\x00\x01\x00\x00\x01C'
+tag: FNumber (33437) - type: rational (5) Tag Location: 232 - Data Location: 652 - value: b'\x00\x00\x00\t\x00\x00\x00\x05'
+tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x00\x19'
+tag: ExifVersion (36864) - type: undefined (7) - value: b'0231'
+tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 280 - Data Location: 660 - value: b'2020:10:16 12:17:51\x00'
+tag: DateTimeDigitized (36868) - type: string (2) Tag Location: 292 - Data Location: 680 - value: b'2020:10:16 12:17:51\x00'
+tag: unknown (36880) - type: string (2) Tag Location: 304 - Data Location: 700 - value: b'-04:00\x00'
+tag: unknown (36881) - type: string (2) Tag Location: 316 - Data Location: 708 - value: b'-04:00\x00'
+tag: unknown (36882) - type: string (2) Tag Location: 328 - Data Location: 716 - value: b'-04:00\x00'
+tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 352 - Data Location: 724 - value: b'\x00\x00=\xf8\x00\x00\x07o'
+tag: ApertureValue (37378) - type: rational (5) Tag Location: 364 - Data Location: 732 - value: b"\x00\x00\xd6'\x00\x00~E"
+tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 376 - Data Location: 740 - value: b'\x00\x01Q\xff\x00\x00/\xd0'
+tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 388 - Data Location: 748 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+tag: Flash (37385) - type: short (3) - value: b'\x00\x10'
+tag: FocalLength (37386) - type: rational (5) Tag Location: 424 - Data Location: 756 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04'
+tag: SubjectArea (37396) - type: short (3) Tag Location: 436 - Data Location: 764 - value: b'\x07\xdd\x05\xe7\x08\xa9\x052'
+tag: MakerNote (37500) - type: undefined (7) Tag Location: 448 - Data Location: 772 - value: <table: 1182 bytes>
+tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'982\x00'
+tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'982\x00'
+tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+tag: ColorSpace (40961) - type: short (3) - value: b'\xff\xff'
+tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x0f\xc0'
+tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x0b\xd0'
+tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1a'
+tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+tag: LensSpecification (42034) - type: rational (5) Tag Location: 604 - Data Location: 1954 - value: b'\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\t\x00\x00\x00\x05\x00\x00\x00\t\x00\x00\x00\x05'
+tag: LensMake (42035) - type: string (2) Tag Location: 616 - Data Location: 1986 - value: b'Apple\x00'
+tag: LensModel (42036) - type: string (2) Tag Location: 628 - Data Location: 1992 - value: <table: 35 bytes>
+tag: unknown (42080) - type: short (3) - value: b'\x00\x02'
+tag: unknown (1) - type: string (2) - value: b'N\x00'
+tag: unknown (2) - type: rational (5) Tag Location: 2054 - Data Location: 2202 - value: b'\x00\x00\x00#\x00\x00\x00\x01\x00\x00\x00*\x00\x00\x00\x01\x00\x00\x0fN\x00\x00\x00d'
+tag: unknown (3) - type: string (2) - value: b'W\x00'
+tag: unknown (4) - type: rational (5) Tag Location: 2078 - Data Location: 2226 - value: b'\x00\x00\x00S\x00\x00\x00\x01\x00\x00\x00\x1f\x00\x00\x00\x01\x00\x00\x03J\x00\x00\x00d'
+tag: unknown (5) - type: byte (1) - value: b'\x00'
+tag: unknown (6) - type: rational (5) Tag Location: 2102 - Data Location: 2250 - value: b'\x00\n\xcfE\x00\x00\x06\xc3'
+tag: unknown (12) - type: string (2) - value: b'K\x00'
+tag: unknown (13) - type: rational (5) Tag Location: 2126 - Data Location: 2258 - value: b'\x00\x00\x18\x93\x00\x00\x98S'
+tag: unknown (16) - type: string (2) - value: b'T\x00'
+tag: unknown (17) - type: rational (5) Tag Location: 2150 - Data Location: 2266 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (23) - type: string (2) - value: b'T\x00'
+tag: unknown (24) - type: rational (5) Tag Location: 2174 - Data Location: 2274 - value: b'\x00\x05\x9b\x87\x00\x00\x06<'
+tag: unknown (29) - type: string (2) Tag Location: 2186 - Data Location: 2282 - value: b'2020:10:16\x00'
+tag: unknown (31) - type: rational (5) Tag Location: 2198 - Data Location: 2294 - value: b'\x00\x01\x08\x12\x00\x00 \x05'
+F:\Claire\clairehe\photos\models.py changed, reloading.
+Watching for file changes with StatReloader

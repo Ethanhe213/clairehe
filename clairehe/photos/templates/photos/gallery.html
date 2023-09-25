@@ -40,6 +40,7 @@
                         <img src="{{photo.image.url}}" class="image-thumbnail" alt="...">
                         <div class="card-body">
                           <small>Catorgies:  {{photo.category.name}}</small>
+                          created_at {{photo.created_at}}
                         </div>
                         <a class='btn btn-outline-dark btn-sm m-1'href="{% url 'photo' photo.id %}">View</a>
                         <a class='btn btn-outline-dark btn-sm m-1'href="{% url 'delete' photo.id %}">Delete</a>
